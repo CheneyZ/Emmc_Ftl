@@ -1,0 +1,10 @@
+LIBRARY
+;eMMC_FW_TEST.def:eMMC FireWare Test
+
+;LIBRARY	"eMMC_FW_TEST"
+
+EXPORTS
+;Explicit exports can go here
+PlugDevice
+LaunchFTL
+LowVoltage

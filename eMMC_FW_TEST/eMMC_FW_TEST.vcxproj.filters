@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\FDL_lib">
+      <UniqueIdentifier>{55f93b17-37b5-493d-9648-02fa761c6a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FTL_GC">
+      <UniqueIdentifier>{98f2308f-ea05-4bc1-b487-284c40489b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FTL_INIT">
+      <UniqueIdentifier>{9bc1b1fd-0e0d-415e-94e0-565439e27c06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\List">
+      <UniqueIdentifier>{a1faf4a3-f34c-4d83-b23b-68784f5ccfb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DMA">
+      <UniqueIdentifier>{8f8da85d-3824-48f5-be36-60a88aa20d19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="eMMC_FW_TEST.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eMMC_FW_TEST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ftl_GC.h">
+      <Filter>Source Files\FTL_GC</Filter>
+    </ClInclude>
+    <ClInclude Include="PhyManage.h">
+      <Filter>Source Files\FDL_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Ftl_sys.h">
+      <Filter>Source Files\FTL_INIT</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Source Files\List</Filter>
+    </ClInclude>
+    <ClInclude Include="DMAC.h">
+      <Filter>Source Files\DMA</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eMMC_FW_TEST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ftl_GC.cpp">
+      <Filter>Source Files\FTL_GC</Filter>
+    </ClCompile>
+    <ClCompile Include="PhyManage.cpp">
+      <Filter>Source Files\FDL_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Ftl_sys.cpp">
+      <Filter>Source Files\FTL_INIT</Filter>
+    </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="DMAC.cpp">
+      <Filter>Source Files\DMA</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

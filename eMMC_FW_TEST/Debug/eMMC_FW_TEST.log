@@ -1,0 +1,18 @@
+﻿Build started 2017/7/10 15:08:07.
+     1>Project "D:\SimStudio\eMMC_FW_TEST\eMMC_FW_TEST.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\eMMC_FW_TEST.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D EMMC_FW_TEST_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\eMMC_FW_TEST.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt PhyManage.cpp eMMC_FW_TEST.cpp
+         eMMC_FW_TEST.cpp
+     1>d:\simstudio\emmc_fw_test\emmc_fw_test.cpp(6): fatal error C1083: Cannot open include file: 'FirmwareProcParam.h': No such file or directory
+         PhyManage.cpp
+     1>d:\simstudio\emmc_fw_test\phymanage.cpp(2): fatal error C1083: Cannot open include file: 'InnerFlash/InnerFlash.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "D:\SimStudio\eMMC_FW_TEST\eMMC_FW_TEST.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.14

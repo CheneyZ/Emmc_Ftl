@@ -1,0 +1,32 @@
+﻿Build started 2017/8/11 21:04:57.
+     1>Project "D:\SimStudio\eMMC_FW_TEST\eMMC_FW_TEST.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\eMMC_FW_TEST.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\SimStudio\lib\Include\Firmware /ID:\SimStudio\lib\Include\Firmware\eMMC /ID:\SimStudio\lib\Include\NCQ /ID:\SimStudio\lib\Include /ID:\SimStudio\lib\Public\Public\Include /ID:\SimStudio\eMMC_FW_TEST\..\..\..\App_Code\Base /ID:\SimStudio\eMMC_FW_TEST\..\..\..\App_Code\FTL /ID:\SimStudio\eMMC_FW_TEST\..\..\FDL_Lib /ID:\SimStudio\eMMC_FW_TEST\..\..\FDL_Lib\inc /ID:\SimStudio\eMMC_FW_TEST\..\..\HAL_Lib /ID:\SimStudio\eMMC_FW_TEST\..\..\HAL_Lib\inc /Zi /nologo /W3 /WX- /Od /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D EMMC_FW_TEST_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\eMMC_FW_TEST.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt eMMC_FW_TEST.cpp
+         eMMC_FW_TEST.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\SimStudio\output\bin\release\dll\Alg\eMMC_FW_TEST.dll" /INCREMENTAL:NO /NOLOGO InnerFlash.lib /DEF:"eMMC_FW_TEST.def" /MANIFEST /ManifestFile:"Release\eMMC_FW_TEST.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\SimStudio\output\bin\release\dll\Alg\eMMC_FW_TEST.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\SimStudio\output\lib\eMMC_FW_TEST.lib" /MACHINE:X86 /DLL Release\dllmain.obj
+         Release\DMAC.obj
+         Release\eMMC_FW_TEST.obj
+         Release\Ftl_GC.obj
+         Release\Ftl_sys.obj
+         Release\List.obj
+         Release\PhyManage.obj
+         Release\stdafx.obj
+            Creating library D:\SimStudio\output\lib\eMMC_FW_TEST.lib and object D:\SimStudio\output\lib\eMMC_FW_TEST.exp
+         Generating code
+         Finished generating code
+         eMMC_FW_TEST.vcxproj -> D:\SimStudio\output\bin\release\dll\Alg\eMMC_FW_TEST.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\SimStudio\output\bin\release\dll\Alg\eMMC_FW_TEST.dll;#2" /manifest Release\eMMC_FW_TEST.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\eMMC_FW_TEST.unsuccessfulbuild".
+         Touching "Release\eMMC_FW_TEST.lastbuildstate".
+     1>Done Building Project "D:\SimStudio\eMMC_FW_TEST\eMMC_FW_TEST.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.13

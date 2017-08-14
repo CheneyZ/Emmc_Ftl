@@ -1,0 +1,7 @@
+---- LOG_INFO Matches (6 in 1 files) ----
+eMMC_FW_TEST.cpp (d:\simstudio\emmc_fw_test):		//LOG_INFO("LPA %d's New Addr is %d\n", logic_page, pfa.addr32);
+eMMC_FW_TEST.cpp (d:\simstudio\emmc_fw_test):			//LOG_INFO("Map Not Exist for index %d\n", Index);
+eMMC_FW_TEST.cpp (d:\simstudio\emmc_fw_test):			//LOG_INFO("PSAddr Not Exist for index %d\n", Index);
+eMMC_FW_TEST.cpp (d:\simstudio\emmc_fw_test):			LOG_INFO("All Full\n",);
+eMMC_FW_TEST.cpp (d:\simstudio\emmc_fw_test):				LOG_INFO("block %d\n", block);
+eMMC_FW_TEST.cpp (d:\simstudio\emmc_fw_test):			//LOG_INFO("write cnt %d\n", ++WR_cnt);
